@@ -27,7 +27,7 @@ jobs:
 
       - name: Build Android App with Cordova
         run: |
-          cordova create myApp app.noor.sport.myapp"Noor Sport"
+          cordova create myApp com.noorsport.htmlapp "NOOR SPORT"
           cd myApp
           rm -rf www/*
           cp -r ../. www/ 2>/dev/null || true
